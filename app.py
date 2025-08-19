@@ -4,8 +4,8 @@ import joblib
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(page_title="Predictor de Velocidad MLB", page_icon="⚾")
-st.title("⚾ Predictor de Velocidad del Primer Lanzamiento")
-st.write("Esta aplicación utiliza un modelo de XGBoost para predecir la velocidad del primer lanzamiento de un pitcher en la primera entrada, asumiendo que será una recta de 4 costuras (FF).")
+st.title("⚾ Predictor de Velocidad del Primer Lanzamiento ⚾")
+st.write("Predicción de la velocidad del primer lanzamiento de un pitcher en la primera entrada, asumiendo que será una recta de 4 costuras (FF).")
 
 # --- CARGA DE DATOS Y MODELO (CON CACHÉ PARA RAPIDEZ) ---
 @st.cache_data
